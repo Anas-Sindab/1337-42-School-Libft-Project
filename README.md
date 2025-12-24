@@ -126,7 +126,7 @@ t_list  *ft_lstmap(t_list *lst, void *(*f)(void*), void (*del)(void*));
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/libft.git
+git clone https://github.com/Anas-Sindab/1337-42-School-Libft-Project.git
 cd libft
 
 # Compile the library
