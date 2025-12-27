@@ -2,9 +2,8 @@
 
 [![1337](https://img.shields.io/badge/1337-Coding_School-FF6B6B?style=for-the-badge)](https://www.1337.ma/)
 [![42 Badge](https://img.shields.io/badge/42-Libft-00babc?style=for-the-badge&logo=42)](https://42.fr)
+![Makefile](https://img.shields.io/badge/Makefile-2C2D30?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMiAxMkwxMiAyMkwyMiAxMkwxMiAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Score](https://img.shields.io/badge/Score-125%2F125-success?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 > A comprehensive reimplementation of essential C standard library functions, built from scratch as part of the 42 Network curriculum.
 
