@@ -291,4 +291,4 @@ This project is part of the 42 Network curriculum. Feel free to reference for le
 
 ---
 
-*Developed at 1337 Coding School (42 Network) - 2025*
+*Developed at UM6P - 1337 Coding School (42 Network) - 2025*
