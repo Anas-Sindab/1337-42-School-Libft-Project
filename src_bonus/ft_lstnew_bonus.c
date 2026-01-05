@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 18:59:30 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:33:21 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,3 @@ t_list	*ft_lstnew(void *content)
 	ptr->next = NULL;
 	return (ptr);
 }
-/*
-int main()
-{
-    t_list *ptr = ft_lstnew("I am zed");
-    while (ptr != NULL)
-    {
-        printf("%c \n", ((char *)ptr->content)[0]);
-        ptr = ptr->next;
-    }
-    free(ptr);
-}*/

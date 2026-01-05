@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:38:05 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:32:59 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,14 +28,4 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main()
-{
-    char s1[5] = "123";
-    char s2[5] = "123";
-    printf("This is ours:%d \n", ft_memcmp(s1, s2, 6));
-    printf("This is ori:%d \n", memcmp(s1, s2, 6));
-    //printf("This is ours:%s \n", arr);
-    //printf("This is ori:%s \n", arro);
 
-}*/

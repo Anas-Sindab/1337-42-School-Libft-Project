@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:35:13 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:33:13 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,4 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-/*
-int main()
-{
-    printf("This is ours:%d \n", ft_isprint('+'));
-    printf("This is ori:%d \n", isprint(31));
-}*/
+

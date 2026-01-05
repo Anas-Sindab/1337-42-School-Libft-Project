@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:37:52 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:32:59 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,14 +25,4 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*
-int main()
-{
-	char s1[5] = "BCA";
-	//char s2[5] = "";
-	printf("This is ours:%p \n", ft_memchr(s1, -10, 3));
-	printf("This is ori:%p \n", memchr(s1, -10, 3));
-	//printf("This is ours:%s \n", arr);
-	//printf("This is ori:%s \n", arro);
 
-}*/

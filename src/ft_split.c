@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:38:47 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:29:27 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,36 +75,4 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (ft_allo(ptrs, s, c, words));
 }
-/*
-int main(void)
-{
-    char *str = "Hello,this,is,a,test";
-    char delimiter = ',';
 
-    char **result = ft_split(str, delimiter);
-
-    if (!result)
-    {
-        printf("ft_split failed\n");
-        return 1;
-    }
-
-    // Print the split words
-    int i = 0;
-    while (result[i])
-    {
-        printf("Word %d: %s\n", i, result[i]);
-        i++;
-    }
-
-    // Free allocated memory
-    i = 0;
-    while (result[i])
-    {
-        free(result[i]);
-        i++;
-    }
-    free(result);
-
-    return 0;
-}*/

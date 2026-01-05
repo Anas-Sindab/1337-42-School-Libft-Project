@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:38:38 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:29:27 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,4 @@ void	ft_putnbr_fd(int n, int fd)
 	c = (num % 10) + '0';
 	write(fd, &c, 1);
 }
-/*
-int main()
-{
-   ft_putnbr_fd(-2147483648, 1);
-}*/
+

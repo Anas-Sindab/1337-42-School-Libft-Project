@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 01:40:40 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:19:32 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,3 @@ char	*ft_strdup(const char *s)
 	ptr[i] = '\0';
 	return (ptr);
 }
-/*
-int main()
-{
-	char *s = "I am zed";
-	char *ptr = ft_strdup(s);
-	printf("%s \n", ptr);
-}*/

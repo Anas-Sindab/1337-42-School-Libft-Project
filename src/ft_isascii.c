@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:35:03 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:38:24 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-/*
-{
-    printf("This is ours:%d \n", ft_isascii(-1));
-    printf("This is ori:%d \n", __isascii(-1));
-}*/

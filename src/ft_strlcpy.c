@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:41:21 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:18:34 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,15 +29,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (len);
 }
-/*int main()
-{
-    char src_o[] = "abc";
-    char dst_o[1] = "";
-
-    char src[] = "def";
-    char dst[1] = "";
-
-    printf("%ld \n", ft_strlcpy(dst_o, src_o, 10));
-    printf("%s \n", dst_o);
-    //printf("%d \n", strlcpy(dst, src, 1));
-}*/

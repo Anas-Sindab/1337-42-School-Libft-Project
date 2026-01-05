@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:35:18 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:32:59 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,8 +78,4 @@ char	*ft_itoa(int n)
 	ft_rev_arr(ptr, size, sign);
 	return (ptr);
 }
-/*
-int main()
-{
-	printf("%s \n", ft_itoa(-2147483648));
-}*/
+

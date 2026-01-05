@@ -6,7 +6,7 @@
 /*   By: anasinda <anasinda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 02:41:33 by anasinda          #+#    #+#             */
-/*   Updated: 2025/12/23 16:21:18 by anasinda         ###   ########.fr       */
+/*   Updated: 2026/01/05 06:19:18 by anasinda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,13 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-/*
-int main()
-{
-    char c = 'a';
-    char b = 'b';
-    char v = 'v';
-    // printf("%d\n", ft_strlen(&c + 1));
-    // printf("%d\n", ft_strlen(&b+ 2));
-    printf("%d\n", ft_strlen(&v));
-}*/
